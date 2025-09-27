@@ -209,3 +209,4 @@ notebooks/
 local_s3/
 cread.txt
 data/
+models/
