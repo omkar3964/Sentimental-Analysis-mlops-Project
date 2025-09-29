@@ -34,7 +34,7 @@ os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 # Below code block is for local use
 # -------------------------------------------------------------------------------------
 mlflow.set_tracking_uri('https://dagshub.com/omalbhare/Sentimental-Analysis-mlops-Project.mlflow')
-dagshub.init(repo_owner='omalbhare', repo_name='Sentimental-Analysis-mlops-Project', mlflow=True)
+# dagshub.init(repo_owner='omalbhare', repo_name='Sentimental-Analysis-mlops-Project', mlflow=True)
 # -------------------------------------------------------------------------------------
 
 
