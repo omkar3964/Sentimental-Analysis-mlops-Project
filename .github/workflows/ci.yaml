@@ -22,6 +22,11 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
+      - name: List project files
+        run: |
+          pwd
+          ls -R
+
 
       - name: install dependencies
         run: |
