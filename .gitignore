@@ -208,5 +208,5 @@ __marimo__/
 notebooks/
 local_s3/
 cread.txt
-data/
+/data/
 models/
