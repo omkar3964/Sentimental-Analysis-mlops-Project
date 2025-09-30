@@ -23,19 +23,19 @@ if not dagshub_token:
 os.environ["MLFLOW_TRACKING_USERNAME"] = dagshub_token
 os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 
-# dagshub_url = "https://dagshub.com"
-# repo_owner = "omalbhare"
-# repo_name = "Sentimental-Analysis-mlops-Project"
+dagshub_url = "https://dagshub.com"
+repo_owner = "omalbhare"
+repo_name = "Sentimental-Analysis-mlops-Project"
 
-# # Set up MLflow tracking URI
-# mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
+# Set up MLflow tracking URI
+mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 
 
 # -------------------------------------------------------------------------------------
 
 # Below code block is for local use
 # -------------------------------------------------------------------------------------
-mlflow.set_tracking_uri('https://dagshub.com/omalbhare/Sentimental-Analysis-mlops-Project.mlflow')
+# mlflow.set_tracking_uri('https://dagshub.com/omalbhare/Sentimental-Analysis-mlops-Project.mlflow')
 # dagshub.init(repo_owner='omalbhare', repo_name='Sentimental-Analysis-mlops-Project', mlflow=True)
 # -------------------------------------------------------------------------------------
 
